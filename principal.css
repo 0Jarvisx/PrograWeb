@@ -24,7 +24,7 @@ h6{
 /*FORMATO DE ELEMENTOS HTML4*/
 header, section, footer aside, nav, article, figcaption{
     display: block;
-    border: double black;
+    border: double none;
 }
 body{
     text-align: center;
@@ -45,6 +45,7 @@ body{
 #cabecera{
     background-color: rgb(0, 255, 166);
     padding: 20px;
+    
 }
 #menu{
     text-align: center;

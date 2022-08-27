@@ -1,7 +1,7 @@
 .articulo{
     background: rgb(188, 93, 93);
     color: white;
-    border: 1px solid rgb(0, 0, 0);
+    border: none;
     padding: 20px ;
     width: 700px;
     text-align: justify;
@@ -34,7 +34,7 @@ div{
     width: 200px;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #000000;
+    border: 1px solid none;
 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -88,7 +88,7 @@ div{
 .articulo2{
     background: rgb(188, 93, 93);
     color: white;
-    border: 1px solid rgb(0, 0, 0);
+    border: none;
     padding: 20px ;
     width: 700px;
     margin-bottom: 20px;
