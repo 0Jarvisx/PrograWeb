@@ -1,16 +1,26 @@
 .articulo{
-    background: black;
+    background: rgb(129, 48, 48);
     color: white;
-    border: 1px solid gray;
-    padding: 20px;
-    width: 1035px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px ;
+    width: 700px;
+    text-align: justify;
     margin-bottom: 20px;
     border-radius: 10px;
+    line-height: 2;
+}
+.hgroup{
+    color:blue;
+}
+#subtitulo{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
 }
 
 article footer{
     text-align: right;
-    color: green;
+    color: rgb(8, 8, 8);
 }
 
 
@@ -24,7 +34,7 @@ div{
     width: 200px;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #dd0c0c;
 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;

@@ -22,7 +22,7 @@ h6{
     font: bold 10px verdana, sans-serif;
 }
 /*FORMATO DE ELEMENTOS HTML4*/
-header, section, footer aside, nav, article, figure, figcaption, hgroup{
+header, section, footer aside, nav, article, figcaption{
     display: block;
     border: double black;
 }
@@ -31,16 +31,21 @@ body{
 }
 /*DISEÑO DEL TEMPLATE*/
 #divGeneral{
-    width: 9800px;
+    width: 1000px;
     margin: 15px auto;
     text-align: left;
 }
-
+.imagen{
+    float: left;
+    margin-right: 20px;
+    margin-top: -7px;
+}
 #cabecera{
     background-color: aqua;
     padding: 20px;
 }
 #menu{
+    text-align: center;
     background-color: orange;
     padding: 5px 15px;
 }
@@ -49,17 +54,31 @@ body{
     list-style: none;
     padding: 5px;
     font: bold 14px sans-serif;
-    border-left: 3px double black;
+    border-left: 3px double rgb(0, 0, 0);
 }
 #principal{
-    float: right;
-    width: 1075px;
-    margin: 21px;
+    float: left;
+    width: 900px;
+    margin: 21px 0;
+}
+#parrafo{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: justify;
+}
+.tituloDoc{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.Sub{
+    margin: 2px;
+    text-align: center;
 }
 footer#aside{
     float: left;
-    width: 220px;
-    margin: 25px 40px;
+    text-align: center;
+    width: 150px;
+    margin: 25px 0px;
     padding: 20px;
     background-color: rgb(238, 154, 38);
 }
@@ -69,15 +88,17 @@ footer#aside{
     padding: 20px;
     border-top: 2px solid silver;
 }
-.articulo{
-    background: rgb(242, 159, 186);
+section#principal{
+    width: 735px;
+    margin: 15px 5px;
+    background: rgb(2, 138, 29);
     border: 1px solid grey;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 15px;
 }
 article footer{
-    text-align: right;
+    text-align: left;
     color: red;
 }
 figcaption{
@@ -88,6 +109,9 @@ div{
     width: 200px;
     margin: 20px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(179, 25, 25);
     box-sizing: border-box;
+}
+#src{
+    text-align: center;
 }
