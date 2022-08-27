@@ -1,5 +1,5 @@
 .articulo{
-    background: rgb(129, 48, 48);
+    background: rgb(188, 93, 93);
     color: white;
     border: 1px solid rgb(0, 0, 0);
     padding: 20px ;
@@ -34,9 +34,68 @@ div{
     width: 200px;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #dd0c0c;
+    border: 1px solid #000000;
 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+#pie{
+    clear: both;
+    text-align: right;
+    padding: 20px;
+    border-top: 2px solid rgb(0, 0, 0) ;
+    background-color: #000000;
+    color: white;
+    font: bold 25px verdana, sans-serif;
+    border-radius: 12px;
+}
+#nombre{
+    float: left;
+    margin-top: -15px;
+    text-align: start;
+}
+#nombre2{
+    float: left;
+    margin-top: 13px;
+    margin-left: -263px;
+    text-align: start;
+}
+#nombre3{
+    float: left;
+    margin-top: 42px;
+    margin-left: -428px;
+    text-align: start;
+}
+#redes{
+    margin-top: 10px;
+}
+#VS{
+    float: left;
+    margin-top: 5px;
+    margin-left: 48px;
+}
+#equipo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#equipo2{
+    float: left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.articulo2{
+    background: rgb(188, 93, 93);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px ;
+    width: 700px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    line-height: 2;
+    
+}
+.tituloheaderfoto{
+    text-align: center;
 }
