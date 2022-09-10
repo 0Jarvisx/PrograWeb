@@ -8,15 +8,28 @@
     <link rel="stylesheet" href="principal.css">
     <link rel="stylesheet" href="segundo.css">
     
+    <script>
+        function mostraralerta(){
+            alert("Se hizo click en el titulo desde una funcion");
+        }
+        function mostrarMensaje(){
+            alert("Hizo Click");
+        }
+        function hacerClick(){
+            document.getElementById("parrafoConClick").onclick=mostrarMensaje();
+        }
+        window.onload=hacerClick();
+
+    </script>
+
 </head>
 <body>
     
     <div id="divGeneral">
     <header id="cabecera">
-        
         <img class ="imagen" src="Logo_personal-removebg-preview.png" width = "80">
-        <h1 id="tituloprincipal">El Mundo del Deporte</h1>
-        <h2 id="subtitulo">Todo sobre deportes!</h2>
+        <h1 onclick='mostraralerta("tituloprincipal")'>El Mundo del Deporte</h1>
+        <h2 onclick='alert("Se hizo click en el subtitulo")'>Todo sobre deportes!</h2>
     </header>
     <nav id="menu">
         <ul>
@@ -48,7 +61,7 @@
                     <h2 id = "subtitulo">Equipos, a qué hora es y cómo ver por televisión e internet</h2>
                 </hgroup>         
             <span><em>El sorteo de grupos de la Champions League 2022/2023 se llevará a cabo este jueves 25 de agosto. Su importancia radica en que, mediante este mecanismo, sabremos cuáles serán los duelos de la primera fase, si es que habrá algún 'grupo de la muerte' e incluso podremos vislumbrar los partidos de los octavos de final.<a href="futbol.html"> <u>Más...</u></a></em></span>
-            <footer><p>(Uriel Blanco, 24 de agosto, 2022) </p>
+            <footer ><p id="coment">(comentario) </p>
             </footer>
         </article>
         <article class="articulo">
